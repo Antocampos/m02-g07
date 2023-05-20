@@ -94,7 +94,8 @@ section .logo{
 	margin-left: 75%;
 	transform: translateX(-50%);
 	position: relative;
-	display: inline-block;}
+	display: inline-block;
+background-color: #0100B3}
 
 .informacion1:hover{
 	border-bottom: 2px solid black;
