@@ -2,80 +2,154 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<!-- Nombre en pestaña  -->
-	<title>DTS</title>
-	<!-- Importar hoja de estilo  -->
-	<link rel="stylesheet" href="style.css">
-	<!-- Importar tipografías-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alucinar</title>
+	<link rel="shortcut icon" href="img/tt.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#informacion1">Introducción</a></li>
+				<li><a href="#informacion2">Paper</a></li>
+				<li><a href="#informacion4">Proyecto</a></li>
+				<li><a href="#informacion7">Relación</a></li>
+				<li><a href="#informacion8">Sociedad</a></li>
+			</ul>
+		</nav>
 
-<header> <!-- En el header va el encabezado de nuestra pagina-->
+		<section class="portada">
+			<img class="logo" src="img/logo_alucinar.png">
+		</section>	
 
-
-	<div id="introduccion">
-		<h1>Mascotas</h1>
-		<h2>Mejores mascotas para adoptar</h2>
-		<img src="img/imagen01.jpg">
-		<h3>¿Porqué tener una mascota?</h3>
-		<p>Las mascotas proporcionan compañía, afecto y protección. Pueden convertirse en compañeros de juego, formándose vínculos únicos entre personas y animales, vínculos que terminan siendo esenciales en sus vidas.</p>
+	<div class="wave" style="height: 150px; overflow: hidden;" >
+		<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+			<path d="M-1.69,68.58 C91.98,-73.52 286.11,305.42 501.69,29.11 L500.00,150.00 L-1.69,153.45 Z" style="stroke: none; fill: #01009F;"></path>
+		</svg>
 	</div>
+	</header>
+	
+	<main>
+		
+		<div class="img1"><img src="img/imagen1.png"></div>
+		<section>
+			<div class="section1"></div>
+			<div class="cajaamarilla"></div>
+			<div id="informacion1">
+				<h1>Welcome!</h1>
+				<p>Somos un grupo conformado por 8 estudiantes de la Pontificia Universidad Católica, en esta página podrás encontrar nuestro trabajo en torno al ensayo “Computer machinery and intelligence” por Alan Turing y el proyecto “Learning to see: Gloomy Sunday” por Memo Akten, donde nuestro foco es analizar sobre la posibilidad de un pensamiento autónomo por parte de máquinas y artefactos del mundo tecnológico.</p>
+				</div>
+			<img class="lineas2" src="img/lineas2.png">
+		</section>
+
+		<section>
+			<div class="caja1">
+				<div id="informacion2">
+					<h1>“Computing Machinery and Intelligence”</h1>
+					<p>Por Alan Turing</p>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="caja2">
+				<div id="informacion3">
+					<p>Alan Turing fue un matemático, lógico y criptógrafo británico. Se considera uno de los padres fundadores de la ciencia de la computación y la inteligencia artificial.<br>“Computing Machinery and Intelligence”, escrito por el británico Alan Turing en 1950, es un ensayo que aborda la cuestión de si las máquinas pueden pensar y si es posible distinguir una máquina inteligente de un ser humano, propone un experimento conocido como “la prueba de Turing”, esta se basa en determinar si una máquina puede mostrar un comportamiento inteligente que sea indistinguible de la de un ser humano. Además, plantea que deberíamos centrarnos en la conducta visible de una máquina y si esta puede comportarse de manera similar a un ser humano. El científico desafía los argumentos en contra y abre la puerta a la posibilidad de la inteligencia artificial y la capacidad de las máquinas para exhibir comportamientos inteligentes y creativos.</p>
+				</div>
+				<div class="gif">
+					<div style="width:700px"><iframe allow="fullscreen" frameBorder="0" height="853" src="https://giphy.com/embed/JJXOHygs6FCnc6JbUb/video" width="480"></iframe></div>
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="caja3">
+				<div id="informacion4">
+					<h1>Learning too see</h1>
+					<p>Proyecto de Memo Atken</p>
+					<img class="img2" src="img/lineas2.png">
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="caja4">
+				<div id="informacion5">
+					<p>Memo Akten es un artista visual, investigador , filomático de Estambul, Turquía. Su trabajo se encuentra en el campo de la inteligencia artificial y la interacción entre humanos y computadoras. Trabaja con tecnologías emergentes y la computación como medio para crear imágenes en movimiento, composiciones, instalaciones receptivas a gran escala y actuaciones , por medio de softwares , algoritmos e inteligencia artificial.</p>
+				</div>
+
+				<div class="repertorio">
+					<ul>
+						<div class="proyecto1">
+							<img src="img/imagen2.jpg">
+						</div>
+
+						<div class="proyecto2">
+							<img src="img/imagen3.png">
+						</div>
+
+						<div class="proyecto3">
+							<img src="img/imagen4.jpg">
+						</div>
+
+						<div class="proyecto4">
+							<img src="img/imagen5.jpg">
+						</div>
+					</ul>
+				</div>
+				<p class="datos">Aprendiendo a ver: Domingo sombrío<br>2017. Vídeo HD. <br> Duración: 3:02. <br> Técnica: Software personalizado, Inteligencia Artificial, Aprendizaje Automático, Aprendizaje Profundo, Redes Adversativas Generativas.<br> Domingo sombrío (2017)<br>Banda sonora: "Gloomy Sunday" de Diamanda Galas</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="caja5">
+				<div id="informacion6">
+					<p>El proyecto "Learning to See: Gloomy Sunday" de Memo Akten es una exploración artística que combina la inteligencia artificial y la visualización de datos para crear una experiencia visual y auditiva inmersiva. El objetivo principal del proyecto es comprender y darle sentido a cómo las máquinas pueden desarrollar una forma de ver y comprender el mundo a partir de lo que se ha visto antes.El sistema computacional utiliza algoritmos de aprendizaje automático para analizar imágenes tomadas de la página Flickr y relacionarlas con las emociones humanas. La inteligencia artificial aprende a reconocer patrones emocionales y clasificarlos en las imágenes, lo que permite que las visualizaciones generadas por el proyecto transmitan una sensación de tristeza o melancolía. Estas visualizaciones son combinaciones de imágenes en movimiento, colores y sonidos que evocan dicha sensación.<br> Los proyectos de Memo Akten reflexionan sobre cómo las personas interpretamos todo lo que vemos, escuchamos y leemos en función de nuestras experiencias pasadas y conocimientos previos. Es imposible para los seres humanos experimentar y comprender completamente lo que ha vivido otra persona. En “Learning to see”, Atken nos invita a reflexionar sobre cómo las personas le damos sentido al mundo y cómo las imágenes que percibimos en nuestra mente consciente no son una reproducción exacta del mundo, sino una reconstrucción basada en nuestras expectativas y creencias previas. El proyecto nos muestra como se puede ver las cosas a través de una visión computacional, y nos hace cuestionarnos hasta qué punto puede  la tecnología entender y transmitir emociones propias de los seres humanos, y de levantar información de manera visual incluso superando las capacidades humanas.</p>
+				</div>
+			</div>
+		<div class="wave2" style="height: 150px; overflow: hidden;" >
+		<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+			<path d="M-1.69,68.58 C91.98,-73.52 286.11,305.42 501.69,29.11 L500.00,150.00 L-1.69,153.45 Z" style="stroke: none; fill: white;"></path>
+		</svg></div>
+		</section>
+
+		<section>
+			<div class="caja6">
+				<div id="informacion7">
+					<h1>Relación Proyecto y Paper</h1>
+					<p>El texto de Turing y el proyecto de Akten tratan problemáticas muy similares. El texto “Computing Machinery and Intelligence” se cuestiona “si las máquinas pueden pensar y si es posible distinguir una máquina inteligente de un ser humano”. Por otro lado, el proyecto “Learning to see” muestra cómo un software crea imágenes nuevas a partir de conocimientos preexistentes. El proyecto de Akten evidencia lo que se plantea Turing, a través de un sistema de aprendizaje automático que enseña a computadoras a darle sentido a lo que ven en un trasfondo de lo que ya conocen. La computadora fue programada con información ya existente, y lo único que hace es relacionar estos datos entre sí para así hacer un levantamiento de información de manera visual. Hacer esta relación entre datos e información no es lo mismo que pensar cómo lo hacemos los humanos. Así, se abre el diálogo para cuestionar hasta qué punto llegan las capacidades de las computadoras y los softwares, y hasta qué punto pueden reemplazar o superar la capacidad humana.</p>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="caja7">
+				<div id="informacion8">
+					<h1>Relevancia Para la Sociedad Actual</h1>
+					<p>En el ensayo de Turing se desarrolla la idea de una similitud entre el pensamiento humano y el comportamiento de una máquina, considerando esto, hoy en día la tecnología y su acelerado avance de la Inteligencia Artificial ha logrado el desarrollo de posturas que expresan preocupación por estos avances, argumentando que esta podría llegar a superar los pensamientos propiamente humanos o incluso pensar de manera autónoma.<br> Debido a los grandes avances de la IA y el temor colectivo de la superación de esta sobre la mente humana, nubla ver con claridad cómo estos avances en realidad siempre estarán a favor del reforzamiento de nuestras habilidades cognitivas, un ejemplo es lo mencionado por Donald Norman, que habla sobre la potencia de las ayudas externas para la mente humana y se refiere a ellas como algo que nos hace más inteligentes. Es válido considerar que la IA podría llegar a ejecutar tareas de mejor manera que una persona, como también disponer múltiples variaciones de elementos propios de un proyecto de diseño, que en vez de una amenaza sería un cambio de enfoque para los diseñadores y generaría mayor eficiencia en sus procesos, aún siendo ellos indispensables puesto a que la tecnología nunca tendrá la habilidad esencial para realizarlos: la creatividad.</p>
+				</div>
+			</div>
+		</section>
 
 
-</header>
-
-
-<body> <!-- En el body va el cuerpo de nuestra pagina -->
-
-
-	<div id="contenedor">
-        
-		<h2>Gatos</h2>
-				<img src="img/imagen02.jpg">
-		<p>La compañía y el amor de un gato son terapéuticos. Si compartes tu vida con un felino, seguro que has sentido como tu nivel de estrés disminuye cuando llegas a casa y se tumba encima tuya ronroneando. Pero no solo disminuyen el estrés, los gatos también tienen el poder de reducir la tristeza, la soledad y la ansiedad.<p>
-			
-		<h3>B Sub titulo otro contenido</h3>
-		<p>Un párrafo final tipo conclusión</p>
-
-		<h2>C Sub titulo vis 1</h2>
-		<img src="img/vis01.jpg">
-		<p>Un párrafo explicativo</p>
-
-		<h2>D Sub titulo vis 2</h3>
-		<object data="img/vis02.svg" type="image/svg+xml"></object>
-		<p>Un párrafo explicativo</p>
-
-	</div><!-- cierre div contenedor -->
-
-
-	<div id="desarrollo">
-		otro div
-	</div>
-
-
-	<div id="conclusion">
-		otro div mas...
-	</div>
-
-	</div>
+	</main>
 
 </body>
 
-
-<footer>   <!-- En el footer va el pie de pagina de nuestra web -->
-
-	<div class="info-footer">
-		<ul class="lista-footer">
-	    	<li><a href="/">Twitter</a></li>
-	    	<li><a href="/">Instagram</a></li>
-	    	<li><a href="/">Facebook</a></li>
-		</ul>
+<footer>
+	<div class="caja10">
+		<div id="informacion11">
+			<img src="img/logo_alucinar.png">
+		</div>
 	</div>
-
 </footer>
-
-
 </html>
+
+<!-- Saque los codigos del carrusel de:https://www.youtube.com/watch?v=cKux39Y0fxw -->
+<!-- Saque los codigos de la curva de: Generated by https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections -->
+<!-- Saque las imagenes de: https://www.pinterest.cl y https://www.pexels.com/es-es/ -->
+<!-- Me inspire en: https://chamberlaincoffee.eu, https://www.gucci.com/es/es/-->
+<!-- Saque los iconos de: https://www.canva.com -->
